@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 60rem;
+    display: flex;
+}
+.container1{
+    width: 65%;
+    height: 100%;
+}
+.container2{
+    width: 35%;
+    height: 100%;
+}
+
+.logo-name a{
+    color: #fff;
+    text-decoration: none;
+}
+.logo-name:hover{
+    transform: scale(1.5);
+    transition: all linear .1s;
+}
+
+.nav-container{
+    background-color: #000;
+    height: 65%;
+    width: 100%;
+}
+
+
+.nav-bar{
+    width: 100%;
+    height: 4rem;
+    color: #fff;
+    list-style: none;
+    display: grid;
+    grid-template-columns:2% 45% 10%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+.nav-center{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.nav-center li{
+    cursor: pointer;
+}
+.nav-center li:hover{
+    transform: scale(1.25);
+    transition: all linear .1s;
+}
+.social-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-logo .fi:hover{
+    transform: scale(1.5);
+    transition: all linear .1s;
+}
+
+.fi{
+    cursor: pointer;
+}
+.intro{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.intr{
+    width: 100%;
+    height: 8rem;
+    font-size: 8rem;
+}
+.bx1{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.bx2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bx3{
+    position: relative;
+    right: -500px;
+}
+
+.outerbx{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+    border: #ffff00 5px solid;
+    transform: rotate(15deg);
+    border-right: transparent;
+    border-bottom: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+    left: -100px;
+}
+.bx6{
+    width:10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 150px;
+    left: 100px;    
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.bx6 .fi{
+    position: absolute;
+    bottom: -2px;
+    left: 26px;
+    font-size: 22px;
+
+}
+
+.bx5{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffff00;
+}
+
+.bx5:hover{
+    transform: scale(5);
+    transition: .15s ease-in-out ; 
+}
+.bx7{
+    position: absolute;
+    bottom:5px;
+    left:50px;
+    font-weight: 900;
+    
+}
+.view{
+    width: 100%;
+    background-color: violet;
+    height:35%;
+    display: flex;
+    align-items: center;
+
+}
+
+.img1{
+    width:40%;
+    height: 100%;
+    background-image: url(http://cdn.home-designing.com/wp-content/uploads/2012/01/yellow-rug.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abt{
+    height: 100%;
+    width: 30%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    font-size: 20px;
+    text-align: left;
+    gap: 1.5rem;
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    background-color:#ffff00;
+    border-radius: 40%;
+}
+.abt a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 25px;
+ }
+
+.img2{
+    height: 100%;
+    width: 30%;
+    background-image: url(https://w0.peakpx.com/wallpaper/672/879/HD-wallpaper-chandelier-light-bulb-lighting-interior-design-thumbnail.jpg);
+}
+
+
+
+
+
+.image-slider{
+    width: 100%;
+    height:70%;
+    background-image: url(https://www.thedesignsheppard.com/wp-content/uploads/2020/12/Carpetright-SS19-Kahrs-Tres-Erve-Matt-Lacquered-Wood-Flooring-In-Matt-Lacquered-sml-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.abt1,.abt2{
+    height: 100%;
+    width: 100%;
+    padding:3rem 2rem;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    cursor: pointer;
+}
+.abt2{
+    background-color: #ffff00;
+}
+.abt-bx{
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    gap: 1rem;
+
+}
