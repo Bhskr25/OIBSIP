@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 238, 238);
+    font-family: 'Comfortaa', cursive;}
+
+.nav-bar{
+    height: 60px;
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.name{
+    font-size:16px;
+    width:33%;
+    font-weight:lighter;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    cursor:pointer;
+}
+.name div{
+    width: 1rem;
+    height: 1rem;
+    background-color: rgb(216, 158, 13);
+    border-radius: 50%;
+    border: none;
+}
+
+.main-body a{
+    cursor: pointer;    
+    text-decoration: none;
+    color: black;
+}
+.main-body a:hover{
+    transform: scale(1.2);
+    transition: 100ms linear ;
+}
+
+.side-nav{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content{
+    padding: 3rem 10rem;
+    display: flex;
+    height: 100%;
+}
+
+.image{
+    width:28rem;
+    height:28rem;
+    border-radius: 50%;
+    box-shadow: 5px 10px 8px rgba(105, 102, 102, 0.4);
+    background: url(https://i.pinimg.com/736x/6d/17/91/6d1791b7305059e49785eb319b4dbfe0.jpg);
+    background-size: cover;
+}
+.intro{
+    width: 50%;
+    padding: 0 40px;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    color: rgb(122, 116, 116);
+}
+
+.intro h3{
+    padding: 20px 0;
+    font-size: 2.5rem;
+    color: black;
+}
+.about{
+    width: 90%;
+}
+.a-link{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    box-shadow:1px 4px 4px rgba(136, 135, 135, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.resume{
+    background-color: #f7f2ef;
+}
+.projects{
+    background-color: #e0e0e0;
+}
+.contact{
+    background-color: #c1c9cc;
+}
+
+.a-link:hover{
+    background-color: transparent;
+    border-radius: 1px solid black;
+    box-shadow:inset  1px 4px 4px rgba(136, 135, 135, 0.4);
+    transform: scale(1.1);
+    transition: 100ms ease-in ;
+
+}
+
+.links{
+    padding:10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.footer{
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+ }
+
+ .social-links i{
+   font-size: 25px; 
+   cursor: pointer;
+   padding:0 10px;
+ }
+
+.project{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 2rem;
+}
+.resume-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
