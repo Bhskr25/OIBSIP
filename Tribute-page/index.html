@@ -1,1 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Tribute Page - Lata Mangeshkar</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Exo%7CKaushan+Script&display=swap"
+			rel="stylesheet"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://kit.fontawesome.com/2e918371a2.js"></script>
+	</head>
+	<body>
+		<header>
+			<nav class="navigation">
+				<a href="#home" class="links">
+                    Home
+                </a>
+				<a href="#biography" class="links">
+                    Biography
+                </a>
+				<a href="#discography" class="links">
+                    Discography
+                </a>
+				<a href="#awards" class="links">
+                    Awards
+                </a>
+				<a href="#info" class="links">
+                    Learn more
+                </a>
+			</nav>
+			<span class="openbtn" onclick="openNav()">&#9776; </span>
+			<nav id="myNav" class="overlay">
+				<a href="javascript:;" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="overlay-content">
+					<a href="#home" onclick="closeNav()">Home</a>
+					<a href="#biography" onclick="closeNav()">Biography</a>
+					<a href="#discography" onclick="closeNav()">Discography</a>
+					<a href="#awards" onclick="closeNav()">Awards</a>
+					<a href="#info" onclick="closeNav()">Learn more</a>
+				</div>
+			</nav>
+		</header>
 
+
+		<main id="home">
+			<section class="img-div">
+				<div class="text">
+					<h1 class="title">Lata Mangeshkar</h1>
+					<p class="img-caption" id="quote">"Singing is a gift from God and when I sing,<br> I feel like I'm in heaven."</p>
+				</div>
+			</section>
+
+			<section id="biography">
+				<h2>Biography</h2>
+				<br>
+				<div class="tribute-info">
+					<img
+						src="https://wallpapercave.com/wp/wp6905031.jpg"
+						alt="Lata Mangeshkar image"
+					/>
+					<p>
+						Lata Mangeshkar was born in Indore on September 28, 1929, and became, quite simply, the most popular playback singer in Bollywood's history. She sung for over 50 years for actresses from Nargis to Preity G Zinta, as well as recorded albums of all kinds (ghazals, pop, etc). Until the 1991 edition, when her entry disappeared, the Guinness Book of World Records listed her as the most-recorded artist in the world with not less than 30,000 solo, duet,and chorus-backed songs recorded in 20 Indian languages between 948 and 1987. Today that number may have reached 40,000!
+						<br>
+						<a
+							id="tribute-img"
+							href="https://en.wikipedia.org/wiki/Lata_Mangeshkar"
+							title="Lata Mangeshkar Biography"
+							target="_blank"
+							>More about Lata Mangeshkar Biography...</a
+						>
+					</p>
+				</div>
+			</section>
+
+
+			<section id="discography">
+				<h2>Most outstanding songs</h2>
+				<div class="movies">
+					<div class="movies-left">
+						<div class="poster">
+							<img
+								src="https://s.saregama.tech/image/c/fh_200/3/4b/53/madhumati_1440x1440_1632989749.jpg"
+							/>
+							<ul>
+								<li><strong>Aaja Re Pardesi</strong></li>
+								<li>1972</li>
+							</ul>
+						</div>
+						<div class="poster">
+							<img
+								src="https://lh3.ggpht.com/-UmCdvjGw5JI/UZMRbI2tBDI/AAAAAAAABaM/mhs9ZT_Rrfw/s1600/amarPrem.jpg"
+							/>
+							<ul>
+								<li><strong>Amar Prem</strong></li>
+								<li>1971</li>
+							</ul>
+						</div>
+						<div class="poster">
+							<img
+								src="https://m.media-amazon.com/images/I/716Q6qCzRIL._RI_.jpg"
+							/>
+							<ul>
+								<li><strong>Aradhana</strong></li>
+								<li>1969</li>
+							</ul>
+						</div>
+						<div class="poster">
+							<img
+								src="https://upload.wikimedia.org/wikipedia/en/1/13/Barsaat_1949_poster.jpg"
+							/>
+							<ul>
+								<li><strong>Barsaat</strong></li>
+								<li>1949</li>
+							</ul>
+						</div>
+					</div>
+					
+					</div>
+				</div>
+			</section>
+
+
+			<section id="awards">
+				<h2>Awards and Recognition</h2>
+				<div class="row">
+					<div class="award-card">
+						<img
+							src="https://static-cf.akamaized.net/images/01fgngb3dm6qr6ye1cwcrgtkbf/lata-1-jpg.jpg"
+						/>
+						<div class="award-text">
+							<p>(2001) Bharat Ratna</p>
+                            <p>India's highest civilian award</p>
+							
+						</div>
+					</div>
+					<div class="award-card">
+						<img
+							src="https://thumbs.dreamstime.com/b/guinness-world-records-logo-logo-guinness-world-records-samsung-tablet-wooden-background-guinness-world-records-102770119.jpg"
+						/>
+						<div class="award-text">
+							<p>(1974)Guinnes world record</p>
+							<p>Most recorded artist in history</p>
+							<p>more than 25,000 solo, duet and chorus backed songs in 20 Indian languages</p>
+						</div>
+					</div>
+					<div class="award-card">
+						<img
+							src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Franse_ridderorde_%28Legion_d%27Honneur%29%2C_ontvangen_door_Willem_Drees%2C_NG-2003-50.jpg/345px-Franse_ridderorde_%28Legion_d%27Honneur%29%2C_ontvangen_door_Willem_Drees%2C_NG-2003-50.jpg"
+						/>
+						<div class="award-text">
+							<p>(2009) Title of Officer of the French Legion of Honour</p>
+							<p> France's highest order</p>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+
+            
+            <section id="info">
+				<h2>Wanna know more . . .</h2>
+				<div class="content-logos">
+					<div class="logo">
+						<a
+							id="tribute-link"
+							href="https://en.wikipedia.org/wiki/Lata_Mangeshkar"
+							target="_blank"
+							><img
+								src="https://img.icons8.com/windows/40/000000/wikipedia.png"
+								alt="wikipedia logo"
+						/></a>
+					</div>
+					<div class="logo">
+						<a
+							href="https://www.instagram.com/lata_mangeshkar/?hl=en"
+							target="_blank"
+							><img
+								src="https://img.icons8.com/nolan/40/000000/instagram-new.png"
+								alt="instagram logo"
+						/></a>
+					</div>
+					<div class="logo">
+						<a
+							href="https://www.imdb.com/name/nm0542196/bio"
+							><img
+								src="https://img.icons8.com/color/40/000000/imdb.png"
+								alt="imdb logo"
+						/></a>
+					</div>
+					
+				</div>
+			</section>
+		</main>
+		<script>
+			function openNav() {
+				document.getElementById("myNav").style.width = "100%";
+			}
+
+			function closeNav() {
+				document.getElementById("myNav").style.width = "0%";
+			}
+		</script>
+	</body>
+</html>

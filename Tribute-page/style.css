@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Comfortaa&family=Montserrat&display=swap');
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Exo", sans-serif;
+	background-color: #e0e0e0;
+	overflow-x: hidden;
+}
+
+/*style header-----------------------------*/
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 3.5rem;
+	z-index: 1;
+	background-color: #5175a8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	max-width: 1430px;
+}
+
+.navigation a {
+	text-decoration: none;
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat', sans-serif;	color: #fff;
+	padding: 10px 20px;
+	font-size: 20px;
+	height: 100%;
+   
+}
+
+.navigation a:hover {
+	color: #292727;
+	background-color: #f7f2ef;
+    transform: scale(1.1);
+}
+
+.overlay-content {
+	display: none;
+}
+
+.openbtn {
+	display: none;
+}
+
+.closebtn {
+	display: none;
+	font-family: "Kaushan Script", cursive;
+}
+
+
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 49px;
+}
+
+.img-div {
+	background-image: url("https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2019/10/14/Pictures/_d275a6b8-ee6f-11e9-a269-0317b040ce03.jpg");
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+#quote{
+    color: #3d5c5c;
+}
+
+.text {
+	position: absolute;
+	top: 5vh;
+	left: 5vw;
+	color: #ffffff;
+}
+
+.title {
+	font-size: 80px;
+	font-family: "Kaushan Script", cursive;
+	margin:50px 0;
+    color: #312e2e;
+}
+
+.img-caption {
+	font-size: 25px;
+	margin-top: 8px;
+}
+
+
+h2 {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#biography {
+	display: flex;
+	flex-direction: column;
+	padding-top: 60px;
+	background-color: #faf6f6;
+	width: 100%;
+}
+
+.tribute-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 90px 40px 90px;
+}
+
+.tribute-info img {
+	width: 340px;
+	height: 400px;
+	border-radius: 45%;
+    
+}
+
+.tribute-info p {
+	width: 800px;
+	line-height: 1.8;
+	padding: 20px;
+	font-size: 18px;
+}
+
+
+#discography {
+	display: flex;
+	flex-direction: column;
+	padding-top: 50px;
+}
+
+.movies {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0 90px 40px 90px;
+}
+
+.movies-left{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 460px;
+	padding: 20px;
+	margin: 18px 0;
+}
+
+.poster {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #ebe8e8;
+	padding: 20px;
+	margin: 20px 10px;
+	border-radius: 14px;
+	border: 2px solid rgb(129, 124, 124);
+	box-shadow: 5px 8px 14px rgba(69, 71, 71, 0.4);
+	width: 430px;
+    
+}
+
+.poster img {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	border: 1px solid #8d8a8a;
+    
+}
+
+.poster ul {
+	padding-left: 30px;
+}
+
+
+#awards {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 65px;
+	background-color: #e9e1e1;
+	width: 100%;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 20px auto;
+	padding-bottom: 40px;
+	max-width: 1345px;
+}
+
+.award-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+	padding: 20px;
+	background-color: #fafafa;
+	border-radius: 12px;
+	box-shadow: 5px 10px 14px rgba(101, 104, 104, 0.4);
+	margin: 35px;
+}
+
+.award-card img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 2px solid #e9e2e2;
+}
+
+.award-card p {
+	margin: 8px 0;
+}
+
+.award-card p:first-of-type {
+	margin-top: 28px;
+}
+
+
+#info {
+	display: flex;
+	flex-direction: column;
+	padding: 15px 0;
+}
+
+.content-logos {
+	display: flex;
+	flex-direction: row;
+	padding: 20px 0;
+}
+
+.logo {
+	margin: 0 15px;
+}
+
+.logo:hover{
+    transform: scale(1.3);
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 40px;
+	background-color: #c1c9cc;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
